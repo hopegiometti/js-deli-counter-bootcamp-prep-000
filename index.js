@@ -3,8 +3,9 @@ function takeANumber(katzDeliLine, name) {
   return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
 }
 
-function takeANumber2() {
   var number = 1
+
+function takeANumber2() {
   number++
   console.log(`Welcome. You are ticket number ${number}.`)
 }
