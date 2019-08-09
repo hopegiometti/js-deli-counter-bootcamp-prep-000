@@ -4,7 +4,7 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function takeANumber2() {
-  var number = 0
+  var number = 1
   number++
   console.log(`Welcome. You are ticket number ${number}.`)
 }
