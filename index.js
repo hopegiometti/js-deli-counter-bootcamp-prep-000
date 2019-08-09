@@ -2,6 +2,15 @@ function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
   return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
 }
+
+function takeANumber2(number) {
+  var number = 0
+  number++
+  return (`Welcome. You are ticket number ${number}.`)
+}
+
+
+
 //this works b/c 1)
 //you want to add a name to katzDeliLine array for every customer who takes a number
 //which is why you add .push to katzDeliLine
