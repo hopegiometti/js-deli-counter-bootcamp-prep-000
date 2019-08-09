@@ -10,6 +10,7 @@ function takeANumber2() {
 }
 
 takeANumber2()
+takeANumber2()
 
 //this works b/c 1)
 //you want to add a name to katzDeliLine array for every customer who takes a number
