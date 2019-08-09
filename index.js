@@ -36,5 +36,5 @@ function currentLine(katzDeliLine) {
     ret += `${i+1}. ${katzDeliLine[i]}, `
     i++;
   }
-  return ret.splice(ret.length, 2)
+  return ret.slice(0, ret.length-2)
 }
