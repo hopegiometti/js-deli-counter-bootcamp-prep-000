@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name) {
 function takeANumber2(number) {
   var number = 0
   number++
-  return (`Welcome. You are ticket number ${number}.`)
+  console.log(`Welcome. You are ticket number ${number}.`)
 }
 
 
