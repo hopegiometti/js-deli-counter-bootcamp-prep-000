@@ -36,32 +36,5 @@ function currentLine(katzDeliLine) {
     ret += `${i+1}. ${katzDeliLine[i]}, `
     i++;
   }
-  return ret.slice(0,ret.length-2)
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name) 
-  return (`Welcome ${name}. You are number ${katzDeliLine.length} in line`)
+  return ret.splice(ret.length, 2)
 }
