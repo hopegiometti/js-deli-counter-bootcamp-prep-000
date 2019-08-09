@@ -36,7 +36,7 @@ function currentLine(katzDeliLine) {
     announce += `${i+1}. ${katzDeliLine[i]}, `
     i++;
   }
-  return ret.slice(0, ret.length-2)
+  return announce.slice(0, announce.length-2)
 }
 
 //first determines if there is someone in line
@@ -44,4 +44,5 @@ function currentLine(katzDeliLine) {
 //i set a variable = to the repeated part of the message we want to return
 //then i used a while loop
 //that says while there are people in line we want to return a message displaying who is in line
-//so i set ret
+//so i added onto to announce in the loop
+//have to use i+1 because i references the array index which begins at 0
