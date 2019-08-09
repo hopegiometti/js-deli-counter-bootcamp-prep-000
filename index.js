@@ -46,16 +46,3 @@ function currentLine(katzDeliLine) {
 //that says while there are people in line we want to return a message displaying who is in line adn what number they are
 //so i added onto to announce in the loop
 //have to use i+1 because i references the array index which begins at 0
-
-
-function currentLine2(katzDeliLine) {
-  if (katzDeliLine.length === 0) {
-    return ("There is nobody waiting to be served!")
-}
-  var namesAndNumbers = []
-
-  for (let i = 0, l = katzDeliLine.length; i < l; i++) {
-    namesAndNumbers.push(`${i+1}. ${katzDeliLine[i]}`)
-  }
-  return `The line is currently: ${namesAndNumbers.join(', ')}`
-}
